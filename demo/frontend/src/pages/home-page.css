@@ -1,0 +1,102 @@
+
+.popup-container {
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+
+  .add-task{
+    cursor: pointer;
+    width: fit-content;
+    align-items: left;
+    margin-left: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(206, 162, 51);
+  }
+  
+  .popup-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+    .form-card input[type="text"],
+    .form-card input[type="email"],
+    .form-card input[type="date"],
+    .form-card input[type="number"]{
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+      }
+
+
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .todo-container {
+    width: 400px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .each-detail {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid black;
+  }
